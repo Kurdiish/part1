@@ -9,14 +9,22 @@ const Header = (props) => {
   )
 }
 
-const Contents = (props) => {
+const Entry = (props) => {
   return (
       <div>
-        <p>{props.name1} {props.phone1} </p>
-        <p>{props.name2} {props.phone2}</p>
-        <p>{props.name3} {props.phone3}</p>  
+          <p>{props.name}  {props.phonenumber}</p>
       </div>
   )
+}
+
+const Contents = (props) => {
+  return (
+    <div>
+        <Entry name={props.name1} phonenumber={props.phone1} />
+        <Entry name={props.name2} phonenumber={props.phone2} />
+        <Entry name={props.name3} phonenumber={props.phone3} />
+    </div>
+)
 }
 
 const App = () => {
