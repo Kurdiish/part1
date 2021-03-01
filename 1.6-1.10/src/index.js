@@ -1,21 +1,5 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-// const name = props.name
-//   const age = props.age
-// const {name,age} = props
-
-
-
-// const App = () => {
-//   const [counter, setCounter] = useState(0)
-//   setTimeout(
-//     () => setCounter(counter + 1),1000
-//   )
-//   return(
-//     <div> {counter}</div>
-//   )
-// }
-
 
 const Title = () => <h1>anna palautetta</h1>
 
